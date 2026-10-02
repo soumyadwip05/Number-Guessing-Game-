@@ -1,0 +1,19 @@
+[project]
+name = "between-number-game"
+version = "1.0.0"
+description = "A polished, local-only number guessing game in Python and Tkinter."
+requires-python = ">=3.10"
+authors = [{name = "Soumyadwip Das"}]
+readme = "README.md"
+license = "MIT"
+dependencies = []
+
+[project.scripts]
+between = "between.app:main"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["between*"]
