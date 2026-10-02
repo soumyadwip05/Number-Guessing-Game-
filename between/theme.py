@@ -82,7 +82,7 @@ def draw_board(canvas, game, record, title, message, width=1040, height=790,
     line(right+26,431,width-67,431)
     text(right+27,451,"GUESS HISTORY",10,SAND,bold=True)
     if not game.history:
-        text(right+27,500,"Your first move goes here.\nTry the middle of the range.",12,FAINT,spacing=8)
+        text(right+27,500,"Your first move goes here.\nTry the middle of the range.",12,FAINT)
     text(42,height-40,"SOUMYADWIP DAS",9,FAINT,bold=True)
     text(width-42,height-40,"Local scores. No account needed.",10,FAINT,anchor="ne")
     canvas.tag_lower("board")
